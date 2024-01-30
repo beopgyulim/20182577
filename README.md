@@ -7,7 +7,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <img src="file:///C:/Users/ekfrb/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/1.jpg" alt="1">
+    <img src="./file:///C:/Users/ekfrb/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/1.jpg" alt="1">
     
     <p><strong>학력</strong><br><span class="small-text">한밭대학교</span></p>
 
