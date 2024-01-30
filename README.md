@@ -10,15 +10,17 @@
             line-height: 1.5;
             margin: 0; /* Reset default margin */
             padding: 0; /* Reset default padding */
+            position: relative; /* Required for absolute positioning */
         }
 
-        .header {
+        .green-rectangle {
             background-color: green;
-            height: 50px; /* Adjust height as needed */
-            width: 100%; /* Cover the full width of the viewport */
-            position: absolute; /* Position at the top of the viewport */
-            top: 0;
-            left: 0;
+            width: 5cm;
+            height: 15cm;
+            position: absolute;
+            top: 50%; /* Move to the middle vertically */
+            left: 50%; /* Move to the middle horizontally */
+            transform: translate(-50%, -50%); /* Center the rectangle */
             z-index: 1000; /* Ensure it's above other content */
         }
 
@@ -38,7 +40,7 @@
     </style>
 </head>
 <body>
-<div class="header"></div> <!-- Green rectangle -->
+<div class="green-rectangle"></div> <!-- Green rectangle -->
 <p><strong>학력</strong><br><span class="small-text">한밭대학교</span></p>
 
 <p style="margin-top: 1.5em;"><strong>수상</strong><br><span class="small-text">은상 / 대한설비공학회 (2022.11)<br>최우수상 / 대한건축학회 대전·세종·충남지회 (2023.04)<br>은상 / 한밭대학교 공학교육혁신센터 (2023.10)<br>우수발표논문상 / 대한건축학회 (2023.10)<br>우수상 / (사)한국그린빌딩협의회 (2023.11)<br>최우수상 / (사)한국공학교육인증원 (2023.12)</span></p>
